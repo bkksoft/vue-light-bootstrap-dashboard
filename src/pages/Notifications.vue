@@ -112,6 +112,7 @@
     },
     methods: {
       notifyVue (verticalAlign, horizontalAlign) {
+
         const color = Math.floor((Math.random() * 4) + 1)
         this.$notifications.notify(
           {
